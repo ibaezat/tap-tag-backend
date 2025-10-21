@@ -28,7 +28,7 @@ public class StatusController {
 
     private final Random random = new Random();
 
-    @GetMapping("status")
+    @GetMapping("/status")
     public Map<String, String> status(){
         return Map.of("status", "OK");
     }
