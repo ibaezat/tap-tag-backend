@@ -8,7 +8,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-@CrossOrigin(origins = "https://tap-tag-one.vercel.app")
+@CrossOrigin(origins = {
+        "https://tap-tag-one.vercel.app",
+        "http://localhost:5173"
+})
 @RestController
 @RequestMapping("/api")
 public class StatusController {
