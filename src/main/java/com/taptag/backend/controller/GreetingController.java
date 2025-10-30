@@ -29,7 +29,7 @@ public class GreetingController {
             ":)",
             "Halo",
             "Oi!",
-            "Olá",
+            "Ola",
             "Hoooola!"
     );
 
