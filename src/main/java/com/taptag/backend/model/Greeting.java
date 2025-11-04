@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class GreetingEntity {
+public class Greeting {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -14,10 +14,10 @@ public class GreetingEntity {
 
     private String message;
 
-    public GreetingEntity() {
+    public Greeting() {
     }
 
-    public GreetingEntity(String message) {
+    public Greeting(String message) {
         this.message = message;
     }
 
