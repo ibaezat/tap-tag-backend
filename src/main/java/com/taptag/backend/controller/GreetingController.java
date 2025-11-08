@@ -5,12 +5,11 @@ import com.taptag.backend.service.GreetingService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Map;
-import java.util.Random;
 
 @CrossOrigin(origins = {
         "https://tap-tag-one.vercel.app",
-        "http://localhost:5173"
+        "http://localhost:5173",
+        "http://localhost:4173"
 })
 
 @RestController

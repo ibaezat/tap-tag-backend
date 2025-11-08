@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 import java.util.Optional;
-import java.util.UUID;
 
 @CrossOrigin(origins = {
         "https://tap-tag-one.vercel.app",
-        "http://localhost:5173"
+        "http://localhost:5173",
+        "http://localhost:4173"
 })
 
 @RestController
