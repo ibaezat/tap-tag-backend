@@ -1,5 +1,5 @@
 ## Run
-- Instalar JDK
-- Clonar proyecto
-- Cargar proyecto en IDE
-- Run project
+- JDK 21
+- Postgres 18
+
+
